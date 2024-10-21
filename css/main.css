@@ -109,3 +109,125 @@
     font-family: "Afacad Flux", sans-serif;
     
 }
+
+.personal{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 120px;
+    width: 100%;
+    
+}
+
+.publicacion{
+    margin: 60px 40px;
+    width: 640px ;
+    height: 780px;
+    box-shadow: 0px 0px 5px var(--colorFondoIcono);
+}
+
+.personal__fotoPerfil{
+    width: 50px;
+    object-fit: cover;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid var(--colorFondoSearch);
+    margin-left: 10px;
+    
+}
+
+.infopersonalPost__nombrePersona{
+    font-family: "Afacad Flux", sans-serif;
+}
+
+.infopersonalPost__cargo{
+    font-family: "Afacad Flux", sans-serif;
+}
+
+.infopersonalPost__hora{
+    font-family: "Afacad Flux", sans-serif;
+}
+
+.publicacion__texto{
+    padding: 15px;
+    font-family: "Afacad Flux", sans-serif;
+}
+
+.publicacion__imagen{
+    
+    padding-left: 15px;
+    width: 620px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.stats{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.likes{
+    display: flex;
+    gap: 5px;
+    width: 300px;
+    margin-top: 10px;
+    
+    font-family: "Afacad Flux", sans-serif;
+    
+}
+
+.likes__iconos{
+    
+    width: 15px;
+}
+
+.comments{
+    
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.comments__texto{
+    font-family: "Afacad Flux", sans-serif;
+}
+
+.interactive{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 60px;
+}
+
+
+.optionsStats__imagen{
+    width: 35px;
+    object-fit: cover;
+    height: 35px;
+    border-radius: 50%;
+    border: 3px solid var(--colorFondoSearch);
+    margin-left: 10px;
+}
+
+.optionsStats__icono{
+    color: var(--colorFondoIcono);
+}
+
+.optionsStats__buttons{
+    width: 25px;
+    height: 25px;
+    
+}
+
+.optionsStats{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.optionsStats__titulos{
+    font-family: "Afacad Flux", sans-serif;
+}

@@ -1,0 +1,79 @@
+.sidebarRight{
+    grid-area: sidebarRight;
+}
+
+.ContainerNews{
+
+    width: 250px;
+    height: 450px;
+    box-shadow: 0px 0px  5px var(--colorNegro);
+    margin-top: 20px;
+}
+
+.titular{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+
+}
+
+.titular__inicio{
+
+    font-family: "Afacad Flux", sans-serif;
+    margin-left: 10px;
+}
+
+.titular__icono{
+    padding-left: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--colorIconosLeft);
+}
+
+.news{
+    
+    margin: 10px auto;
+    width: 200px;
+    font-family: "Afacad Flux", sans-serif;
+
+}
+
+.readMore{
+    margin-left: 25px;
+    font-family: "Afacad Flux", sans-serif;
+    color: var(--colorPost);
+}
+
+.ContainerLearn{
+    margin-top: 20px;
+      width: 250px;
+      height: 400px;
+      border: 1px solid black;
+}
+
+.ad{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap:5px;
+    margin-right: 5px;
+}
+
+.ad__texto{
+    color: var(--colorTitulos);
+    font-weight: bold;
+    font-family: "Afacad Flux", sans-serif;
+    
+}
+
+.anuncioTexto{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: "Afacad Flux", sans-serif;
+    color: var(--colorFondoIcono);
+    
+
+}
+
+

@@ -1,6 +1,7 @@
 @import url('header.css');
 @import url('sidebar-left.css');
 @import url('main.css');
+@import url('sidebarRight.css');
 *{
     padding: 0;
     margin: 0;
@@ -16,6 +17,8 @@
     'sidebarLeft main sidebarRight';
     height: 100vh;
 }
+
+    
 
 
 
