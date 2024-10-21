@@ -1,0 +1,168 @@
+@import url('customProperties.css');
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+.sidebarLeft{
+    grid-area: sidebarLeft;
+    
+    
+}
+
+.sidebarLeft__containerProfile{
+
+    margin-left: auto;
+    width: 300px;
+    box-shadow: 0px 0px 5px var(--colorFondoIcono);
+    margin-top: 20px;
+    height: 440px;
+}
+
+.fondo{
+    position: relative;
+}
+
+.fondo__imagenSuperior{
+    
+    position: absolute;
+    left: 15px;
+    top: 160px;
+    width: 90px;
+    object-fit: cover;
+    height: 90px;
+    border-radius: 50%;
+    border: 3px solid var(--colorFondoSearch);
+}
+
+
+
+.fondo__principal{
+    margin-top: 45px;
+    position: relative;
+    left: 10px;
+}
+
+.fondo__imagen{
+
+    width: 100%;
+    
+}
+
+.fondo__nombre{
+    font-family: "Afacad Flux", sans-serif;
+}
+
+.fondo__cargo{
+    font-family: "Afacad Flux", sans-serif;
+    color: var(--colorFondoIcono);
+}
+
+.containerInfo{
+    display: flex;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    
+}
+
+.history{
+    width: 150px;
+    
+}
+
+
+.history__textos{
+    font-family: "Afacad Flux", sans-serif;
+}
+
+
+.conteo{
+    
+    width: 150px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: var(--colorAzulConteo);
+}
+
+.buttons{
+    margin-top: 2px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons__space{
+    width: 1px;
+    height: 55px;
+}
+
+.buttons__texto{
+
+    font-family: "Afacad Flux", sans-serif;
+}
+
+.buttons__iconItem{
+
+    color: var(--colorAzulFuerte);
+}
+
+.buttons__iconStart{
+    color: var(--colorDorado);
+}
+
+.sidebarLeft__containerInfo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:auto; 
+    width: 300px;
+    height: 700px;
+    box-shadow: 0px 0px 5px var(--colorFondoIcono);
+}
+
+.titulos__info{
+    padding-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-family: "Afacad Flux", sans-serif;
+    color: var(--colorTitulos);
+}
+
+.titulos__link{
+    font-family: "Afacad Flux", sans-serif;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 25px;
+    text-decoration: none;
+    color: var(--colorFondoIcono);
+    
+}
+
+.titulos__iconos{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--colorIconosLeft);
+}
+
+
+.titulos__space{
+    margin-top: 20px;
+}
+
+.titulos__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-family: "Afacad Flux", sans-serif;
+    color: var(--colorIconosLeft);
+    text-align: center;
+    
+}
+
+
+

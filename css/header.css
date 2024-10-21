@@ -12,7 +12,7 @@
     display: flex;
     justify-content: space-around;
     align-content: center;
-    box-shadow: 0px 1px  8px var(--colorNegro);
+    box-shadow: 0px -2px  10px var(--colorNegro);
     
 }
 
