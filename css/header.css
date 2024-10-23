@@ -14,7 +14,7 @@
 .header__container{
     height: 100%;
     display: flex;
-    justify-content: space-around;
+    gap: 35%;
     align-content: center;
     box-shadow: 0px -2px  10px var(--colorNegro);
     
@@ -23,6 +23,7 @@
 
 /* Search  */
 .search{
+    margin-left: 80px;
     display: flex;
     align-items: center;
     gap: 16px;
@@ -116,7 +117,7 @@
     width: 10px;
     height: 10px;
     position: absolute;
-    right: 15px;
+    right: 2px;
     top: 22px;
     background-color: var(--colorVerde);
     border-radius: 50%;
