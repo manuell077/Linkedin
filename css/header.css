@@ -5,6 +5,10 @@
     grid-area: header;
     background-color: var(--colorBlanco);
     height: 90px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
 }
 
 .header__container{
@@ -112,7 +116,7 @@
     width: 10px;
     height: 10px;
     position: absolute;
-    right: 5px;
+    right: 15px;
     top: 22px;
     background-color: var(--colorVerde);
     border-radius: 50%;
@@ -136,3 +140,85 @@
     border-bottom: 5px solid var(--colorFondoIcono);
 }
 
+.profile{
+    display: none;
+    position: relative;
+    top: 100%;
+    left: -230px;
+    width: 280px;
+    height: 400px;
+    background-color: var(--colorFondoProfile);
+    overflow: hidden;
+}
+
+.cuenta{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10px;
+    margin-top: 15px;
+
+}
+
+.cuenta__fotoPerfil{
+    width: 60px;
+    object-fit: cover;
+    height: 60px;
+    border-radius: 50%;
+    
+    
+    
+}
+
+.cuenta__nombre{
+    font-family: "Roboto", sans-serif;
+    color: var(--colorBlanco);
+}
+
+.cuenta__link{
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    
+    color: var(--seeProfile);
+}
+
+.profile__space{
+    width: 90%;
+    margin: 20px auto;
+}
+
+.settings{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    
+    
+}
+
+.settings__imagen{
+    width: 40px;
+    margin-left: 20px;
+}
+
+.settings__texto{
+    padding-left: 15px ;
+    font-weight: bold;
+    color: var(--colorBlanco);
+    font-family: "Roboto", sans-serif;
+}
+
+.settings__icono{
+    padding-right: 10px;
+    font-size: 10px;
+    margin-left: auto;
+    color: var(--colorBlanco);
+}
+
+.checkboxClass{
+    opacity: 0;
+}
+
+.checkboxClass:checked ~ .profile{
+    display: block;
+}
